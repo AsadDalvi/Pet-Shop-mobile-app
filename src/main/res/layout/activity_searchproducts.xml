@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpetshopp"
+    tools:context=".searchproducts">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="257dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="76dp"
+        android:text="SEARCH FOR PET PRODUCTS"
+        android:textAlignment="center"
+        android:textColor="#B8751E"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/pnidt"
+        android:layout_width="283dp"
+        android:layout_height="64dp"
+        android:hint="PetName/ID"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+    <Button
+        android:id="@+id/searchp22"
+        android:layout_width="246dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="352dp"
+        android:backgroundTint="#B8751E"
+        android:text="Search"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/homepage"
+        android:layout_width="145dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="496dp"
+        android:backgroundTint="#B8751E"
+        android:text="Go back to Home"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
